@@ -144,7 +144,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `Music for Blood Organization`, type: ActivityType.Playing }],
+      activities: [{ name: `Music with Blood`, type: ActivityType.Listening }],
       status: 'idle',
     });
   }, 2000); 
